@@ -37,7 +37,7 @@ Le serveur web est un serveur apache classique installé avec la commande ```yum
 Ce serveur nous sert uniquement pour tester les logs d'un service web.
 
 Nous y avons ensuite ajouté l'outil [Netdata](https://www.netdata.cloud).
-Netdata est un outil open source qui permet de visualier et surveiller les performances (CPU,RAM,Disque...) en temps réel.
+Netdata est un outil open source qui permet de visualiser et surveiller les performances (CPU,RAM,Disque...) en temps réel.
 
 L'installation s'est faite avec la commande ```bash <(curl -Ss https://my-netdata.io/kickstart.sh)``` donnée par Netdata.
 
